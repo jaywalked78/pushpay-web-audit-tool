@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/blog/church-growth-guide/",
+  "pageType": "Blog Post",
+  "overallScore": 74,
+  "auditDate": "2025-06-16T19:00:29.262Z",
+  "summary": {
+    "performance": "Page Health: 74/100 - Solid foundation with clear paths for improvement",
+    "scoreBreakdown": {
+      "technical": 76,
+      "content": 85,
+      "accessibility": 46,
+      "performance": 85
+    },
+    "strengths": [
+      "Strong technical SEO foundation in place | Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 5,
+    "issueCount": 8
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding Skip Navigation Link",
+      "impactLevel": "High Impact Opportunity",
+      "complexity": "Simple || Opportunity 2: Heading Hierarchy Violation (H1 followed by H5 and then H3) | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 3: Adding Label for Marketo Form Input | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: JavaScript-Dependent Navigation with Placeholder HREFs | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 5: Empty or Generic Alt Attributes on Images | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 6: Extraneous Text in Title Tag | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 7: Small Social Media Icon Touch Targets | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 8: Inline Styles in Body Content | Impact Level: Future Consideration | Implementation Complexity: Simple",
+      "description": "Adding Skip Navigation Link"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Implement a 'Skip to main content' link as the very first interactive element in the `<body>`, which becomes visible on focus and jumps to the `main` content area. This is a crucial WCAG 2.1 AA requirement. || Action 2: Correct the heading hierarchy to be logical (H1, followed by H2s, then H3s etc.). Remove the `h5` that acts as a sub-heading to the `h1` and use a `p` tag or appropriate div for descriptive text. Ensure all content sections are introduced by an `h2` where appropriate. Also, remove the `<br />` tag from the H1 for cleaner semantic markup. || Action 3: Ensure all input fields within the Marketo form have explicitly associated `<label>` elements (using `for` and `id` attributes) or appropriate ARIA attributes (`aria-label`, `aria-labelledby`) for accessibility. This may require Marketo form configuration or custom JavaScript/HTML injection. || Action 4: Refactor navigation to use valid, crawlable URLs in `href` attributes for all links. Implement JavaScript for progressive enhancement (e.g., dropdowns) rather than as the sole mechanism for navigation functionality. This ensures accessibility and crawlability. || Action 5: Provide descriptive `alt` attributes for all meaningful images. For logos, use 'Company Name Logo'. For functional icons, describe their purpose accurately (e.g., 'Giving Product Icon'). Ensure `src` attributes are not empty. Decorative images can have `alt=\"\"` but functional/content images should convey meaning. || Action 6: Remove extraneous social media IDs and other non-title text from the `<title>` tag. This likely requires adjusting settings in the Yoast SEO Premium plugin or the theme's title generation function. || Action 7: Increase the effective touch target size of these social media icons by applying sufficient CSS `padding` or `min-width`/`min-height` to their parent `<a>` elements, ensuring they meet WCAG 2.1 AA target size guidelines. || Action 8: Move inline styles to external or internal CSS stylesheets. Use semantic HTML elements and CSS properties (like `margin` or `padding`) for spacing instead of empty `<p>&nbsp;</p>` tags or inline `margin` on elements. This improves caching, maintainability, and code quality.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add Skip Navigation Link",
+      "implementation": "Low effort",
+      "businessImpact": "High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 94/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium (Content/Blog)",
+    "tags": [
+      "SEO Enhancement",
+      "Blog Post",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 74",
+      "Multiple Opportunities"
+    ],
+    "effort": 3.6,
+    "impact": 6.4
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/blog/church-growth-guide/ | Current Performance Score: 74/100 | Page Status: Functional with improvement opportunities | Enhancement Opportunities Identified: 8 | High-Impact Quick Wins: 2 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 76/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_blog_church-growth-guide_.json"
+}

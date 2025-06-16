@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/blog/generous-church-guide/",
+  "pageType": "Blog Post",
+  "overallScore": 74,
+  "auditDate": "2025-06-16T19:10:03.419Z",
+  "summary": {
+    "performance": "Page Health: 74/100 - Solid foundation with clear paths for improvement",
+    "scoreBreakdown": {
+      "technical": 63,
+      "content": 85,
+      "accessibility": 69,
+      "performance": 85
+    },
+    "strengths": [
+      "Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 6,
+    "issueCount": 9
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Word-level Text Fragmentation",
+      "impactLevel": "Strong Opportunity",
+      "complexity": "Simple || Opportunity 2: Adding Skip Navigation Link | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 3: Heading Hierarchy Violation (Adding H1, H2 as primary title, H5 misused) | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 4: Adding Form Labels (Marketo Form) | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 5: JavaScript-Dependent Navigation (href=\"#\") | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 6: Empty or Generic Alt Attributes on Images | Impact Level: Enhancement Opportunity | Implementation Complexity: Moderate || Opportunity 7: Small Social Media Icon Touch Targets | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 8: Extraneous Text in Title Tag | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 9: Inline Styles in Body Content | Impact Level: Future Consideration | Implementation Complexity: Simple",
+      "description": "Word-level Text Fragmentation"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Correct the HTML to prevent internal tags from breaking words. For example, the `font-weight` style should be applied via a class to the entire word or sentence, or externalized in CSS. || Action 2: Implement a 'Skip to main content' link as the very first focusable element immediately after the opening `<body>` tag. This link should become visible only when focused (e.g., via keyboard tabbing) and, when activated, should move focus directly to the page's main content area (e.g., `<main id=\"main-content\">`). || Action 3: Restructure the page's heading hierarchy to include a single, prominent `<h1>` tag for the main title. The current `<h2>` should be converted to an `<h1>`. The `<h5>` serving as a paragraph should be changed to a `<p>` tag. Ensure all subsequent sections follow a logical nesting order (H1 > H2 > H3, etc.). || Action 4: Configure the Marketo form to ensure all input fields have correctly associated `<label>` elements (using `for` and `id` attributes) or appropriate ARIA attributes (e.g., `aria-label` or `aria-labelledby`) for accessibility. This is a critical step for WCAG compliance. || Action 5: Re-architect the main navigation to use valid, crawlable URLs in `href` attributes for all links. Implement JavaScript for progressive enhancement (e.g., creating animated dropdowns or overlays) rather than as the sole mechanism for navigation functionality. This ensures a robust, crawlable, and accessible navigation experience. || Action 6: Conduct a comprehensive audit of all images on the page and provide descriptive `alt` attributes that accurately convey the image's content or function. For logos, specify 'Pushpay Logo'. For functional icons in navigation, describe their purpose (e.g., 'Giving Product Page Icon'). || Action 7: Increase the effective clickable/touchable area of the social media icons using CSS. Apply sufficient `padding` (e.g., `padding: 12px;`) or set `min-width` and `min-height` (e.g., `min-width: 44px; min-height: 44px;`) to their parent `<a>` elements to meet WCAG touch target guidelines. || Action 8: Remove all extraneous social media IDs and other non-essential text from the `<title>` tag. This typically requires adjusting settings within the Yoast SEO Premium plugin or the custom function responsible for generating page titles. || Action 9: Refactor all inline styles into external or internal CSS stylesheets. Define descriptive classes for common styling patterns (e.g., `.intro-text`, `.button-spacing`, `.centered-heading`) and apply these classes to the HTML elements instead of inline `style` attributes. This improves caching, maintainability, and code organization.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Word-level Text Fragmentation",
+      "implementation": "Low effort",
+      "businessImpact": "High || Quick Win 2: Add Skip Navigation Link | Implementation: Low effort | Business Impact: High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 94/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium (Content/Blog)",
+    "tags": [
+      "SEO Enhancement",
+      "Blog Post",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 74",
+      "Multiple Opportunities"
+    ],
+    "effort": 3.6,
+    "impact": 6.7
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/blog/generous-church-guide/ | Current Performance Score: 74/100 | Page Status: Functional with improvement opportunities | Enhancement Opportunities Identified: 9 | High-Impact Quick Wins: 2 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 63/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_blog_generous-church-guide_.json"
+}

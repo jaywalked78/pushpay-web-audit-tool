@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/solutions/worship-planning-software",
+  "pageType": "Solutions Page",
+  "overallScore": 73,
+  "auditDate": "2025-06-16T15:29:04.755Z",
+  "summary": {
+    "performance": "Page Health: 73/100 - Solid foundation with clear paths for improvement",
+    "scoreBreakdown": {
+      "technical": 75,
+      "content": 85,
+      "accessibility": 50,
+      "performance": 76
+    },
+    "strengths": [
+      "Strong technical SEO foundation in place | Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 5,
+    "issueCount": 10
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding/Generic Descriptive Alt Text on Images",
+      "impactLevel": "High Impact Opportunity",
+      "complexity": "Simple || Opportunity 2: `href=\"#\"` Placeholder Links | Impact Level: Strong Opportunity | Implementation Complexity: Complex || Opportunity 3: Adding Form Label on Search Input (Footer) | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: Hidden Marketo Form with `display:none` | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 5: Adding Skip Navigation Link | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 6: Multiple Render-Blocking Scripts in Head | Impact Level: Enhancement Opportunity | Implementation Complexity: Moderate || Opportunity 7: Small Touch Target Sizes for Interactive Elements | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 8: Generic Anchor Text for Call-to-Action Links | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 9: Excessive Inline Styles Preventing Caching | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 10: Style Interruptions Mid-Sentence (Inline Spans for Styling) | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple",
+      "description": "Adding/Generic Descriptive Alt Text on Images"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Provide concise and descriptive `alt` attributes for all functional or informational images (e.g., `alt=\"Pushpay Logo\"`, `alt=\"Service Plan Icon\"`). For purely decorative images, ensure `alt=\"\"` is used. Review all generic `alt` text and replace with meaningful descriptions. || Action 2: Replace `href=\"#\"` with functional URLs if they lead to distinct pages (e.g., `/search` for a search page). If they trigger JavaScript functions (e.g., opening a modal), convert them to `<button>` elements and use appropriate ARIA attributes (e.g., `aria-expanded`, `aria-controls`) to convey their purpose and state to assistive technologies. || Action 3: Add an `aria-label` attribute directly to the `<input>` tag that describes its purpose, or use a visually hidden `<label>` element associated with the input via its `for` attribute. || Action 4: If the content of the Marketo form is intended for SEO, consider alternative hiding methods that are less likely to be seen as manipulative, such as `visibility:hidden` or `opacity:0` combined with `aria-hidden=\"true\"` if it's meant to be truly inaccessible to all users until activated. Otherwise, ensure such content is either not critical for SEO or made visible through other means. || Action 5: Implement a 'Skip to main content' link as the first focusable element immediately after the `<body>` tag. This link should become visible on keyboard focus (`:focus` pseudo-class) and, when activated, smoothly move focus to the main content area (e.g., `<main id=\"main-content\">`). || Action 6: Minimize render-blocking JavaScript by implementing `defer` or `async` attributes for scripts that are not critical for the immediate visual rendering of the page. Consolidate small, non-critical inline scripts into external files to reduce HTTP requests or, if truly tiny and critical, inline them carefully. Prioritize loading essential scripts first. || Action 7: Increase the effective clickable area of all interactive elements to at least 44x44 CSS pixels. This can be achieved by increasing padding on buttons/links or setting a minimum `width` and `min-height` in CSS. Ensure the visual feedback (e.g., hover/active states) is also applied to this larger area. || Action 8: Replace generic anchor text with descriptive, keyword-rich phrases that accurately reflect the content of the linked page. For example, instead of 'Click here', use 'Access ChMS Support Portal' or 'Explore Pushpay University Resources'. || Action 9: Consolidate all inline CSS into external stylesheet files. Leverage CSS classes and IDs for styling, rather than inline `style` attributes. Remove or refactor `!important` flags where possible to allow for proper CSS cascade and easier overrides. This improves caching, reduces HTML size, and enhances maintainability. || Action 10: Apply styling consistently using CSS classes defined in external stylesheets. Avoid inline `style` attributes on generic elements like `<span>` for common text styling. This improves code maintainability, consistency, and slightly aids performance.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add/Generic Descriptive Alt Text on Images",
+      "implementation": "Low effort",
+      "businessImpact": "High || Quick Win 2: Add Form Label on Search Input (Footer) | Implementation: Low effort | Business Impact: High || Quick Win 3: Add Skip Navigation Link | Implementation: Low effort | Business Impact: High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 93/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium (Sub-Product)",
+    "tags": [
+      "SEO Enhancement",
+      "Solutions Page",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 73",
+      "Multiple Opportunities"
+    ],
+    "effort": 4.1,
+    "impact": 7.2
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/solutions/worship-planning-software | Current Performance Score: 73/100 | Page Status: Functional with improvement opportunities | Enhancement Opportunities Identified: 10 | High-Impact Quick Wins: 3 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 75/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_solutions_worship-planning-software.json"
+}

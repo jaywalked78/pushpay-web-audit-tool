@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/blog/church-giving-guide/",
+  "pageType": "Blog Post",
+  "overallScore": 72,
+  "auditDate": "2025-06-16T16:52:30.357Z",
+  "summary": {
+    "performance": "Page Health: 72/100 - Solid foundation with clear paths for improvement",
+    "scoreBreakdown": {
+      "technical": 76,
+      "content": 85,
+      "accessibility": 38,
+      "performance": 85
+    },
+    "strengths": [
+      "Strong technical SEO foundation in place | Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 4,
+    "issueCount": 8
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding Skip Navigation Link",
+      "impactLevel": "High Impact Opportunity",
+      "complexity": "Simple || Opportunity 2: Heading Hierarchy Violation (Adding H2) | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 3: Adding Label for Footer Search Input | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: Empty or Generic Alt Attributes on Images | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 5: JavaScript-Dependent Navigation with Placeholder HREFs | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 6: Extraneous Text in Title Tag | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 7: Small Social Media Icon Touch Targets | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 8: Inline Styles from Page Builder | Impact Level: Future Consideration | Implementation Complexity: Complex",
+      "description": "Adding Skip Navigation Link"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Implement a 'Skip to main content' link as the very first interactive element in the `<body>`, which becomes visible on focus and jumps to the `main` content area. This is a crucial WCAG 2.1 AA requirement. || Action 2: Implement H2 headings between the H1 and subsequent H3s to maintain a logical and accessible document outline. Ensure all headings follow a sequential order (H1, then H2s, then H3s, etc.). || Action 3: Add a `<label>` element associated with the search input using the `for` attribute, or use `aria-label` or `aria-labelledby` directly on the input if a visual label is not desired. || Action 4: Provide descriptive `alt` attributes for all meaningful images. For logos, specify 'Company Name Logo'. For functional icons, describe their purpose accurately (e.g., 'Giving Product Icon'). For content images, describe the image visually. Decorative images can have `alt=\"\"` but functional/content images should not. || Action 5: Implement robust HTML navigation with actual URLs for top-level links where possible, using JavaScript for progressive enhancement (e.g., dropdowns). Ensure graceful degradation for users with JavaScript disabled. || Action 6: Remove extraneous social media IDs and other non-title text from the `<title>` tag. Configure the SEO plugin (Yoast SEO Premium) or custom function to prevent this concatenation. || Action 7: Increase the effective touch target size of the social media icons using CSS `padding` or `min-width/min-height` on the `<a>` element, ensuring they meet WCAG 2.1 AA requirements (minimum 44x44px). || Action 8: Refactor WPBakery Page Builder's style output to external CSS files where possible, or consolidate into fewer, more efficient internal style blocks. This improves caching and overall performance.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add Skip Navigation Link",
+      "implementation": "Low effort",
+      "businessImpact": "High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 92/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium (Content/Blog)",
+    "tags": [
+      "SEO Enhancement",
+      "Blog Post",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 72",
+      "Multiple Opportunities"
+    ],
+    "effort": 4.3,
+    "impact": 6.6
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/blog/church-giving-guide/ | Current Performance Score: 72/100 | Page Status: Functional with improvement opportunities | Enhancement Opportunities Identified: 8 | High-Impact Quick Wins: 2 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 76/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_blog_church-giving-guide_.json"
+}

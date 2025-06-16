@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/support/",
+  "pageType": "General Page",
+  "overallScore": 75,
+  "auditDate": "2025-06-16T15:21:05.423Z",
+  "summary": {
+    "performance": "Page Health: 75/100 - Strong foundation with opportunities for enhancement",
+    "scoreBreakdown": {
+      "technical": 75,
+      "content": 85,
+      "accessibility": 55,
+      "performance": 80
+    },
+    "strengths": [
+      "Strong technical SEO foundation in place | Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 4,
+    "issueCount": 8
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding Descriptive Alt Text on Images",
+      "impactLevel": "High Impact Opportunity",
+      "complexity": "Simple || Opportunity 2: `href=\"#\"` Placeholder Links | Impact Level: Strong Opportunity | Implementation Complexity: Complex || Opportunity 3: Adding Form Label on Search Input (Footer) | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: Marketo Form Hidden with `display:none` | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 5: Adding Skip Navigation Link | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 6: Multiple Inline Scripts in Head | Impact Level: Enhancement Opportunity | Implementation Complexity: Moderate || Opportunity 7: Small Touch Target Sizes | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 8: Generic Anchor Text | Impact Level: Strong Opportunity | Implementation Complexity: Moderate",
+      "description": "Adding Descriptive Alt Text on Images"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Provide concise and descriptive `alt` attributes for all functional or informational images (logos, icons). For decorative images, use `alt=\"\"` but ensure they truly add no content information. || Action 2: Replace `href=\"#\"` with functional URLs where possible (e.g., a search results page for the 'SEARCH' link) or use `<button>` elements for JavaScript-driven functionality that doesn't navigate to a new URL. For buttons, ensure proper ARIA attributes (e.g., `aria-expanded`, `aria-controls`) are used to convey their state and purpose to assistive technologies. || Action 3: Add a visually hidden `<label>` element associated with the input using `for` attribute, or an `aria-label` attribute directly on the input. `aria-label` is often simpler for a single input. || Action 4: If the content of the Marketo form is critical for SEO, consider alternative hiding methods that are less likely to be seen as manipulative, such as `visibility:hidden` or `opacity:0` combined with `aria-hidden=\"true\"` if it's meant to be truly inaccessible to all users until activated. Ideally, if the content is meant for indexing, it should be visible in the initial render. || Action 5: Implement a 'Skip to main content' link as the first focusable element in the `<body>` tag. This link should become visible on keyboard focus and, when activated, move focus to the main content area (e.g., `<main id=\"main-content\">`). || Action 6: Minimize render-blocking JavaScript by deferring (using `defer` attribute) or asynchronously loading (`async` attribute) scripts that are not critical for initial page rendering. For very small, critical scripts, consider inlining them directly into the HTML to reduce HTTP requests, but large inline scripts should be externalized and optimized. || Action 7: Ensure all interactive elements (buttons, links, icons) have a minimum touch target size of 44x44 CSS pixels. This can often be achieved by increasing padding or min-width/min-height in CSS without changing the visual size of the icon itself. || Action 8: Replace generic anchor text with descriptive phrases that clearly indicate the content of the linked page. For example, instead of 'Click here', use 'Explore ChMS Support' or 'Access Pushpay University Resources'.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add Descriptive Alt Text on Images",
+      "implementation": "Low effort",
+      "businessImpact": "High || Quick Win 2: Add Form Label on Search Input (Footer) | Implementation: Low effort | Business Impact: High || Quick Win 3: Add Skip Navigation Link | Implementation: Low effort | Business Impact: High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 95/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Low (Support)",
+    "tags": [
+      "SEO Enhancement",
+      "General Page",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 75",
+      "Multiple Opportunities"
+    ],
+    "effort": 3.8,
+    "impact": 7.5
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/support/ | Current Performance Score: 75/100 | Page Status: Well-maintained with optimization potential | Enhancement Opportunities Identified: 8 | High-Impact Quick Wins: 3 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 75/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_support_.json"
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/compare/",
+  "pageType": "Comparison Page",
+  "overallScore": 68,
+  "auditDate": "2025-06-16T19:31:00.090Z",
+  "summary": {
+    "performance": "Page Health: 68/100 - Solid foundation with clear paths for improvement",
+    "scoreBreakdown": {
+      "technical": 57,
+      "content": 85,
+      "accessibility": 50,
+      "performance": 85
+    },
+    "strengths": [
+      "Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 5,
+    "issueCount": 10
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding Skip Navigation Link",
+      "impactLevel": "Strong Opportunity",
+      "complexity": "Simple || Opportunity 2: Heading Hierarchy Violation (H2 as primary title, H5/H6 misuse, <br> in H1) | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 3: Adding Form Labels (Marketo Form) | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: JavaScript-Dependent Navigation with Placeholder HREFs | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 5: Empty or Generic Alt and Empty Image `src` Attributes | Impact Level: Enhancement Opportunity | Implementation Complexity: Moderate || Opportunity 6: Extraneous Text in Title Tag | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 7: Small Touch Targets (Social Media Icons, Mobile Toggle, Comparison Table) | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 8: Phrase Fragmentation (Semantic Tag Enhancement) & High Inline Styles Count | Impact Level: Future Consideration | Implementation Complexity: Complex || Opportunity 9: Potentially Small Font Sizes on Mobile | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 10: Comparison Table Horizontal Scrolling Risk | Impact Level: Enhancement Opportunity | Implementation Complexity: Moderate",
+      "description": "Adding Skip Navigation Link"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Implement a 'Skip to main content' link as the very first interactive element in the `<body>`, which becomes visible on focus and jumps to the `main` content area. This is a crucial WCAG 2.1 AA requirement. || Action 2: Refactor heading structure: Convert the main `<h2>` to an `<h1>` and remove the `<br />` from `h1` (use CSS). Change `<h5>` (Line 1241) to a `<p>`. Replace all `<h5>`/`<h6>` used for navigation/footer titles with semantically neutral elements (e.g., `div`, `span`) with appropriate CSS classes. || Action 3: Configure the Marketo form to ensure all input fields have correctly associated HTML `<label>` elements (using `for` and `id` attributes) or appropriate ARIA attributes (`aria-label`, `aria-labelledby`) for programmatic association. || Action 4: Refactor these navigation elements to use valid, crawlable URLs in their `href` attributes. JavaScript should be used for progressive enhancement (e.g., dropdown animations) rather than as the sole mechanism for navigation. || Action 5: Conduct a comprehensive audit of all images and provide descriptive `alt` attributes. For functional images, describe their purpose. For the comparison table, use `aria-label` or more descriptive hidden text for the icons to convey context (e.g., `aria-label=\"Feature Name: Included\"`). Ensure all `src` attributes are correctly populated with valid image URLs. || Action 6: Remove all extraneous social media IDs and other non-essential text from the `<title>` tag. This typically requires adjusting settings within the Yoast SEO Premium plugin or the custom function generating page titles. || Action 7: Increase the clickable/touchable area of these elements using CSS. Apply sufficient `padding` (e.g., `padding: 12px;`) or set `min-width` and `min-height` (e.g., `min-width: 44px; min-height: 44px;`) to the interactive parent elements (e.g., the `<button>` or `<a>` tag). || Action 8: Refactor HTML to use semantic tags. Remove `<br />` from headings (use CSS). Convert pseudo-buttons (`.compare_link`) to `<a>` or `<button>`. Remove redundant `<span>` wrappers. Externalize all inline `style` attributes into dedicated, cached CSS files using semantic classes. This improves code quality, caching, and maintainability. || Action 9: Increase the `font-size` for all body text and content within tables to a minimum of `16px` (or `1rem`) for mobile viewports to ensure readability without requiring zoom. || Action 10: Implement a more robust responsive table design. This could involve making the table horizontally scrollable within its container (via `overflow-x: auto`), or re-designing it to stack vertically on small screens for better readability without horizontal scrolling. Ensure a seamless experience across all mobile device widths.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add Skip Navigation Link",
+      "implementation": "Low effort",
+      "businessImpact": "High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 88/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium-High (Comparison)",
+    "tags": [
+      "SEO Enhancement",
+      "Comparison Page",
+      "Improvement Needed",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 68",
+      "Multiple Opportunities"
+    ],
+    "effort": 4.2,
+    "impact": 6.7
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/compare/ | Current Performance Score: 68/100 | Page Status: Functional with improvement opportunities | Enhancement Opportunities Identified: 10 | High-Impact Quick Wins: 1 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 57/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_compare_.json"
+}

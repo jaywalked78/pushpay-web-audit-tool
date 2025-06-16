@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/blog/summer-slump-resources/",
+  "pageType": "Blog Post",
+  "overallScore": 73,
+  "auditDate": "2025-06-16T19:23:58.227Z",
+  "summary": {
+    "performance": "Page Health: 73/100 - Solid foundation with clear paths for improvement",
+    "scoreBreakdown": {
+      "technical": 66,
+      "content": 85,
+      "accessibility": 57,
+      "performance": 85
+    },
+    "strengths": [
+      "Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 6,
+    "issueCount": 9
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding Skip Navigation Link",
+      "impactLevel": "Strong Opportunity",
+      "complexity": "Simple || Opportunity 2: Heading Hierarchy Violation (H1 missing, H2 as primary title, H5 misused, H3s for labels) | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 3: Adding Form Labels (Marketo Form) | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: JavaScript-Dependent Navigation with Placeholder HREFs | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 5: Empty or Generic Alt and Empty Image `src` Attributes | Impact Level: Enhancement Opportunity | Implementation Complexity: Moderate || Opportunity 6: Extraneous Text in Title Tag | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 7: Adding Open Graph Image | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 8: Small Touch Targets (Social Media Icons, Mobile Toggle) | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 9: Phrase Fragmentation (Semantic Issue with Span Tags) and Inline Styles | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple",
+      "description": "Adding Skip Navigation Link"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Implement a 'Skip to main content' link as the very first interactive element in the `<body>`, which becomes visible on focus and jumps to the `main` content area. This is a crucial WCAG 2.1 AA requirement. || Action 2: Restructure the heading hierarchy: Convert the main `<h2>` to an `<h1>`. Change the `<h5>` to a `<p>`. Ensure main content sections are introduced by `<h2>`s, and `<h3>` tags are used only for true sub-sections, not labels. Use semantically neutral elements (e.g., `div` or `span`) for stylistic labels. || Action 3: Configure the Marketo form to ensure all input fields have correctly associated `<label>` elements (using `for` and `id` attributes) or appropriate ARIA attributes (`aria-label`, `aria-labelledby`). This is crucial for WCAG compliance. || Action 4: Refactor navigation elements to use valid, crawlable URLs in `href` attributes. Use JavaScript for progressive enhancement (e.g., dropdown animations) rather than as the sole mechanism for navigation. || Action 5: Conduct a comprehensive audit of all images and provide descriptive `alt` attributes. For functional images, describe their purpose. Ensure all `src` attributes are correctly populated with valid image URLs. || Action 6: Remove all extraneous social media IDs and other non-essential text from the `<title>` tag. This typically requires adjusting settings within the Yoast SEO Premium plugin or the custom function generating page titles. || Action 7: Add a `<meta property=\"og:image\" content=\"[URL to a high-quality, relevant image]\">` tag within the `<head>` section. Ensure the image is optimized for social sharing (e.g., aspect ratio 1.91:1, minimum 1200x630 pixels). || Action 8: Increase the effective clickable/touchable area of these interactive elements using CSS. Apply sufficient `padding` (e.g., `padding: 12px;`) or set `min-width` and `min-height` (e.g., `min-width: 44px; min-height: 44px;`) to their parent `<a>` or `<button>` elements to meet WCAG touch target guidelines. || Action 9: Remove unnecessary `<span>` wrappers from paragraphs and apply styling (like `font-weight`) directly to the `<p>` tag or via a CSS class. Replace `div` elements used solely for spacing with appropriate CSS margins/paddings on surrounding elements or use a semantically neutral element with a class for styling (e.g., `<div class=\"spacer-25px\">`).",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add Skip Navigation Link",
+      "implementation": "Low effort",
+      "businessImpact": "High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 93/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium (Content/Blog)",
+    "tags": [
+      "SEO Enhancement",
+      "Blog Post",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 73",
+      "Multiple Opportunities"
+    ],
+    "effort": 3.4,
+    "impact": 6.8
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/blog/summer-slump-resources/ | Current Performance Score: 73/100 | Page Status: Functional with improvement opportunities | Enhancement Opportunities Identified: 9 | High-Impact Quick Wins: 1 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 66/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_blog_summer-slump-resources_.json"
+}

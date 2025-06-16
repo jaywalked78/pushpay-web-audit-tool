@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/blog/pastors-guide-for-an-impactful-easter/",
+  "pageType": "Blog Post",
+  "overallScore": 71,
+  "auditDate": "2025-06-16T19:19:10.297Z",
+  "summary": {
+    "performance": "Page Health: 71/100 - Solid foundation with clear paths for improvement",
+    "scoreBreakdown": {
+      "technical": 57,
+      "content": 85,
+      "accessibility": 63,
+      "performance": 85
+    },
+    "strengths": [
+      "Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 5,
+    "issueCount": 8
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding Skip Navigation Link",
+      "impactLevel": "Strong Opportunity",
+      "complexity": "Simple || Opportunity 2: Heading Hierarchy Violation (H1 followed by P, then H3s) | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 3: Adding Form Labels (Marketo Form) | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: JavaScript-Dependent Navigation with Placeholder HREFs | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 5: Empty or Generic Alt and Empty Image `src` Attributes | Impact Level: Enhancement Opportunity | Implementation Complexity: Moderate || Opportunity 6: Extraneous Text in Title Tag | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 7: Small Touch Targets (Social Media Icons, Mobile Toggle) | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple || Opportunity 8: Phrase Fragmentation and Inline Styles (Semantic Issue) | Impact Level: Enhancement Opportunity | Implementation Complexity: Simple",
+      "description": "Adding Skip Navigation Link"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Implement a 'Skip to main content' link as the very first interactive element in the `<body>`, which becomes visible on focus and jumps to the `main` content area. This is a crucial WCAG 2.1 AA requirement. || Action 2: Refactor the heading structure. The introductory paragraph should remain a `<p>` tag. Introduce main sections under the `<h1>` with `<h2>` tags, and then use `<h3>` for sub-sections. Remove the `<br />` tag from the `h1` and use CSS for line breaks if needed. || Action 3: Configure the Marketo form to ensure all input fields have correctly associated `<label>` elements (using `for` and `id` attributes) or appropriate ARIA attributes (`aria-label`, `aria-labelledby`). This is crucial for WCAG compliance. || Action 4: Re-architect the main navigation to use valid, crawlable URLs in `href` attributes for all links. Implement JavaScript for progressive enhancement (e.g., dropdowns) rather than as the sole mechanism for navigation functionality. This ensures both accessibility and robust crawlability. || Action 5: Conduct a comprehensive audit of all images and provide descriptive `alt` attributes that accurately convey their content or function. For logos, use \"Pushpay Logo\". For functional icons, describe their purpose. Ensure all `src` attributes are correctly populated with valid image URLs. || Action 6: Remove all extraneous social media IDs and other non-essential text from the `<title>` tag. This likely requires adjusting settings within the Yoast SEO Premium plugin or the custom function generating page titles. || Action 7: Increase the effective clickable/touchable area of these interactive elements using CSS. Apply sufficient `padding` (e.g., `padding: 12px;`) or set `min-width` and `min-height` (e.g., `min-width: 44px; min-height: 44px;`) to their parent `<a>` or `<button>` elements to meet WCAG touch target guidelines. || Action 8: Remove unnecessary `<span>` wrappers from paragraphs and apply styling (like `font-weight`) directly to the `<p>` tag or via a CSS class. Replace `div` elements used solely for spacing with appropriate CSS margins/paddings on surrounding elements or, if a specific space-only element is truly needed, use a semantically neutral element with a class (e.g., `<div class=\"spacer-25px\">`) and define the height in CSS.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add Skip Navigation Link",
+      "implementation": "Low effort",
+      "businessImpact": "High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 91/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium (Content/Blog)",
+    "tags": [
+      "SEO Enhancement",
+      "Blog Post",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 71",
+      "Multiple Opportunities"
+    ],
+    "effort": 3.8,
+    "impact": 6.9
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/blog/pastors-guide-for-an-impactful-easter/ | Current Performance Score: 71/100 | Page Status: Functional with improvement opportunities | Enhancement Opportunities Identified: 8 | High-Impact Quick Wins: 1 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 57/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_blog_pastors-guide-for-an-impactful-easter_.json"
+}

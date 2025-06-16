@@ -1,0 +1,70 @@
+{
+  "url": "https://pushpay.com/blog/church-technology-guide/",
+  "pageType": "Blog Post",
+  "overallScore": 77,
+  "auditDate": "2025-06-16T19:05:56.116Z",
+  "summary": {
+    "performance": "Page Health: 77/100 - Strong foundation with opportunities for enhancement",
+    "scoreBreakdown": {
+      "technical": 83,
+      "content": 85,
+      "accessibility": 46,
+      "performance": 85
+    },
+    "strengths": [
+      "Strong technical SEO foundation in place | Quality content structure established | Comprehensive product coverage | Proper canonical and robots implementation | Well-structured JSON-LD data | Mobile-responsive design framework"
+    ],
+    "quickWinCount": 6,
+    "issueCount": 9
+  },
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Adding Skip Navigation Link",
+      "impactLevel": "High Impact Opportunity",
+      "complexity": "Simple || Opportunity 2: Heading Hierarchy Violation (Adding H1, H2 as primary title) | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 3: Adding Label for Marketo Form Input | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 4: JavaScript-Dependent Navigation with Placeholder HREFs | Impact Level: Enhancement Opportunity | Implementation Complexity: Complex || Opportunity 5: Empty or Generic Alt Attributes on Images | Impact Level: Strong Opportunity | Implementation Complexity: Moderate || Opportunity 6: Extraneous Text in Title Tag | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 7: Adding Open Graph Image | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 8: Small Social Media Icon Touch Targets | Impact Level: Strong Opportunity | Implementation Complexity: Simple || Opportunity 9: Inline Styles in Body Content | Impact Level: Future Consideration | Implementation Complexity: Simple",
+      "description": "Adding Skip Navigation Link"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Implement a 'Skip to main content' link as the very first interactive element in the `<body>`, which becomes visible on focus and jumps to the `main` content area. This is a crucial WCAG 2.1 AA requirement. || Action 2: Implement an `<h1>` tag for the primary page title. Demote the current `<h2>` to a `<h1>`. Ensure all subsequent sections follow a logical heading hierarchy (e.g., `<h2>` for main sections, `<h3>` for sub-sections, etc.). || Action 3: Ensure all input fields within the Marketo form have explicitly associated `<label>` elements (using matching `for` and `id` attributes) or appropriate ARIA attributes (`aria-label`, `aria-labelledby`) for accessibility. This typically requires configuration within the Marketo form builder or custom JavaScript to inject labels. || Action 4: Refactor navigation to use valid, crawlable URLs in `href` attributes for all links. Implement JavaScript for progressive enhancement (e.g., dropdowns) rather than as the sole mechanism for navigation functionality. This ensures both accessibility and robust crawlability. || Action 5: Conduct a thorough audit of all images and provide descriptive `alt` attributes that accurately convey the image's content or function. For decorative images, `alt=\"\"` is appropriate, but for functional elements like logos, use `alt=\"Pushpay Logo\"`. For icons representing features, use `alt=\"[Feature Name] Icon\"`. || Action 6: Remove extraneous social media IDs and any other non-essential text from the `<title>` tag. This typically requires adjusting settings within the Yoast SEO Premium plugin or the custom function responsible for generating page titles. || Action 7: Add a `<meta property=\"og:image\" content=\"[URL to a high-quality, relevant image]\">` tag within the `<head>` section. Ensure the image is optimized for social sharing (e.g., aspect ratio 1.91:1, minimum 1200x630 pixels) and ideally use an image that represents the page's content, not just a logo. || Action 8: Increase the effective touch target size of these social media icons by applying sufficient CSS `padding` (e.g., `padding: 12px;`) or setting `min-width` and `min-height` of at least `44px` to their parent `<a>` elements. This will make them easier to interact with on touch devices. || Action 9: Relocate all inline styles to external or internal CSS stylesheets. Define classes for common styling patterns (e.g., `.intro-paragraph`, `.button-right-margin`, `.centered-text`) and apply those classes to the HTML elements instead. This improves CSS caching, maintainability, and overall code quality.",
+      "priority": "medium"
+    }
+  ],
+  "quickWins": [
+    {
+      "id": 1,
+      "title": "Add Skip Navigation Link",
+      "implementation": "Low effort",
+      "businessImpact": "High",
+      "effort": "low"
+    }
+  ],
+  "implementation": {
+    "phases": [],
+    "siteWideContext": "This page analysis is part of a comprehensive 110-page site audit. Improvements should be prioritized based on: (1) Impact across multiple pages, (2) Template-level fixes that scale, (3) Quick wins that improve user experience site-wide.",
+    "expectedOutcomes": [
+      "Improved search engine visibility | Enhanced user experience across devices | Better accessibility compliance | Faster page load performance | Projected score improvement to 95/100 post-optimization"
+    ]
+  },
+  "metadata": {
+    "priority": "Medium (Content/Blog)",
+    "tags": [
+      "SEO Enhancement",
+      "Blog Post",
+      "Performance Optimization",
+      "Quick Wins Available",
+      "Page Audit",
+      "Score: 77",
+      "Multiple Opportunities"
+    ],
+    "effort": 3.3,
+    "impact": 6.3
+  },
+  "executiveSummary": "Page URL: https://pushpay.com/blog/church-technology-guide/ | Current Performance Score: 77/100 | Page Status: Well-maintained with optimization potential | Enhancement Opportunities Identified: 9 | High-Impact Quick Wins: 2 | Implementation Effort Level: Moderate",
+  "professionalAssessment": "This page demonstrates a solid technical foundation with 83/100 for technical SEO and 85/100 for content quality. The identified optimization opportunities primarily focus on enhancing user experience and accessibility compliance. As part of the larger 110-page audit, patterns identified here may indicate site-wide improvement opportunities that can be addressed efficiently at the template level.",
+  "lastUpdated": "2025-06-16T20:28:32.512Z",
+  "filename": "pushpay.com_blog_church-technology-guide_.json"
+}
